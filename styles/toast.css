@@ -1,0 +1,35 @@
+/* Common Toast Style */
+.success-toast,
+.error-toast {
+  min-width: 220px;
+  max-width: 70vw;
+  min-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  background: linear-gradient(to right, red, black) !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Remove tick icon or error icon */
+.Toastify__toast-icon {
+  display: none !important;
+}
+
+/* Center content in toast body */
+.Toastify__toast-body {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Toast container on mobile - slightly above center */
+.Toastify__toast-container--top-center {
+  top: 35%;
+  transform: translateY(-35%);
+}
