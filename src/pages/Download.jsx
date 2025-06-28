@@ -42,7 +42,7 @@ export default function DownloadPage() {
 
           <div className="flex justify-start">
             <a
-              href="https://github.com/Krishna123ab/Krish/releases/download/v2.0/app-arm64-v8a-release.apk"
+              href="https://github.com/Krishna123ab/Krish/releases/download/v2.0/MovaFlix.apk"
               download
               className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-black transition-all duration-300"
             >
